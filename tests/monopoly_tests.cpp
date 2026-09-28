@@ -3,7 +3,7 @@
 #include <catch2/benchmark/catch_constructor.hpp>
 #include <catch2/generators/catch_generators_range.hpp>
 
-#include "../src/factorial.hpp"
+#include "../src/monopoly.hpp"
 
 TEST_CASE( "it computes the factorial of different numbers" ) {
     REQUIRE( factorial(0) == 1 );
